@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style: none;
+}
+.section-1{
+   
+    height: 700px;
+    background-size: cover;   
+background-color: rgba(0, 0, 0, 0.5);  
+}
+.section-1 img{
+    z-index: -1;
+}
+.btn2:hover{
+    background-color: #62D083;
+    color: aliceblue;
+}
+.textnav:hover>a{
+    color: #62D083 !important;
+}
+.iam:hover{
+    background-color: #62D083 !important;
+    color:white;
+    transition: all 0.5s;
+}
+.box1:hover{
+    border:1px solid #62D083 !important;
+    transition: all 0.5s;
+    
+}
+.box1:hover .box2{
+    transition: all 0.5s;
+    color: #62D083 !important;
+}
+.box3:hover{
+    color: #62D083 !important;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.color{
+    background-color: #EFEFEF;
+}

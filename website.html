@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="web.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courgette&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+        integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed top-0 start-0 w-100"
+        style=" z-index: 9999;">
+        <div class="container">
+            <a class=" text-success h2" href="#">Mentor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item h5  textnav">
+                        <a class="nav-link active text-success" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item h5 textnav">
+                        <a class="nav-link " aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item h5 textnav">
+                        <a class="nav-link " aria-current="page" href="#">Cources</a>
+                    </li>
+                    <li class="nav-item h5 textnav">
+                        <a class="nav-link " aria-current="page" href="#">trainers</a>
+                    </li>
+                    <li class="nav-item h5 textnav">
+                        <a class="nav-link " aria-current="page" href="#">Events</a>
+                    </li>
+                    <li class="nav-item h5 textnav">
+                        <a class="nav-link " href="#">peicing</a>
+                    </li>
+                    <li class="nav-item dropdown textnav h5">
+                        <a class="nav-link dropdown-toggle textnav" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item textnav">
+                        <a class="nav-link  h5" href="#" tabindex="-1" aria-disabled="true">contect</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-outline-success rounded-pill " type="submit">Get Started</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="section-1 w-100 position-relative ">
+        <img src="hero-bg.jpg" class="w-100 h-100 position-absolute top-0 start-0" alt="">
+        <div class="container d-flex justify-content-center align-items-center h-100">
+            <div class="w-100">
+                <div class="text-light h1 fw-bolder" data-aos="fade-up" data-aos-duration="1000"> Learning Today,</div>
+                <div class="text-light h1 fw-bolder" data-aos="fade-up" data-aos-duration="2000">Leading Tomorrow</div>
+                <div class="text-light h4" data-aos="fade-up" data-aos-duration="3000"> We are team of talented
+                    designers making websites with Bootstrap</div>
+                <div class=" mt-5 btn btn-outline-light ps-5 pe-5 pt-2 pb-2 rounded-pill text-capitalize btn2"
+                    data-aos="fade-up-right" data-aos-delay="1000">get
+                    Started</div>
+            </div>
+        </div>
+    </section>
+    <section class="section-2 mt-5">
+        <div class="container row m-auto row-lg-">
+            <div class="col-lg-6  order-lg-1  order-2 ">
+                <div class="h2 w-100 fw-bolder" data-aos="fade-right" data-aos-duration="1000">Voluptatem dignissimos
+                    provident quasi corporis</div>
+                <div class="h6  text-muted" data-aos="fade-up" data-aos-duration="1000">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod
+                    tempor
+                    incididunt ut labore et dolore magna aliqua.</div>
+                <div class="d-flex align-items-center " data-aos="fade-up" data-aos-duration="1000">
+                    <i class="bi bi-check-circle h5 m-0 text-success"></i>
+                    <div class="ms-2"> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                </div>
+                <div class="d-flex align-items-center " data-aos="fade-up" data-aos-duration="1000">
+                    <i class="bi mt-1 bi-check-circle h5 m-0 text-success"></i>
+                    <div class="ms-2"> Duis aute irure dolor in reprehenderit in voluptate velit.</div>
+                </div>
+                <div class="d-flex mt-1 " data-aos="fade-up" data-aos-duration="1000">
+                    <i class="bi bi-check-circle h5 m-0 text-success"></i>
+                    <div class="ms-2"> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</div>
+                </div>
+                <div class=" mt-5 btn btn-outline-success ps-4 pe-4 rounded-pill text-light bg-success"
+                    data-aos="fade-right" data-aos-duration="1000">read more
+                    <i class="bi bi-arrow-right ms-1 mt-3"></i>
+                </div>
+            </div>
+            <div class="col-lg-6 order-lg-2  order-1 " data-aos="flip-left" data-aos-duration="1000">
+                <img src="about.jpg" class="w-100" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid  bg-light  mt-5 ">
+        <div class="container d-flex justify-content-center align-items-center">
+            <section class="section-3 w-100 row ">
+                <div class="col-sm-12 col-md-6 col-lg-3 text-center  ">
+                    <div class="h1 fw-bolder w-100 mt-5 text-success" data-aos="fade-up" data-aos-duration="1000">
+                        1232
+                    </div>
+                    <div class=" w-100 mb-5 text-muted" data-aos="fade-up" data-aos-duration="1000">
+                        Students
+                    </div>
+                </div>
+                <div class=" col-sm-12 col-md-6 col-lg-3 text-center ">
+                    <div class="h1 fw-bolder w-100 mt-5 text-success" data-aos="fade-up" data-aos-duration="1000">
+                        64
+                    </div>
+                    <div class=" w-100 mb-5 text-muted" data-aos="fade-up" data-aos-duration="1000">
+                        Courses
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 text-center">
+                    <div class="h1 fw-bolder w-100 mt-5 text-success" data-aos="fade-up" data-aos-duration="1000">
+                        42
+                    </div>
+                    <div class=" w-100 mb-5 text-muted" data-aos="fade-up" data-aos-duration="1000">
+                        Events
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 text-center">
+                    <div class="h1 fw-bolder w-100 mt-5 text-success" data-aos="fade-up" data-aos-duration="1000">
+                        24
+                    </div>
+                    <div class=" w-100 mb-5 text-muted" data-aos="fade-up" data-aos-duration="1000">
+                        Trainers
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <section class="w-100 mt-5">
+        <div class="container">
+            <div class="w-100 row">
+                <div class="col-12 col-lg-4  p-3" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="w-100 bg-success p-3">
+                        <div class="w-100 h2 text-light fw-bolder">
+                            Why Choose Our Products?
+                        </div>
+                        <div class="w-100 text-light mt-5 ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed
+                            et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                        </div>
+                        <div class="w-100 d-flex justify-content-center mt-3">
+                            <div class="btn btn-outline-light p-2 ps-4 pe-4 rounded-pill">
+                                Learn More
+                                <i class="bi bi-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12   col-lg-8  p-3">
+                    <div class="row m-auto w-100">
+                        <div class="col-xl-4 p-0" data-aos="fade-up" data-aos-duration="1000">
+                            <div class=" text-center p-2  text-center " style=" height: 400px;">
+                                <div class="card-body border h-100">
+                                    <div class="w-50 p-3 rounded-circle p-0 m-0 bg-light m-auto iam">
+                                        <i class="bi bi-clipboard-data text-success p-0 m-0  fs-1"></i>
+                                    </div>
+                                    <p class="card-text mt-4  h5 mt-5 ms-3">Corporis voluptates officia eiusmod</p>
+                                    <p class="mt-4 text-muted">Consequuntur sunt aut quasi enim aliquam quae harum
+                                        pariatur laboris
+                                        nisi ut
+                                        aliquip
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 p-0" data-aos="fade-up" data-aos-duration="2000">
+                            <div class=" text-center p-2  text-center " style=" height: 400px;">
+                                <div class="card-body border h-100">
+                                    <div class="w-50 p-3 rounded-circle p-0 m-0 bg-light m-auto iam">
+                                        <i class="bi bi-gem fs-1  text-success p-0 m-0  fs-1"></i>
+                                    </div>
+
+                                    <p class="card-text mt-4  h5 mt-5 ms-3">Ullamco laboris ladore pan</p>
+                                    <p class="mt-4 text-muted">Excepteur sint occaecat cupidatat non proident, sunt in
+                                        culpa qui
+                                        officia
+                                        deserunt
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 p-0" data-aos="fade-up" data-aos-duration="3000">
+                            <div class=" text-center p-2  text-center " style=" height: 400px;">
+                                <div class="card-body border h-100">
+                                    <div class="w-50 p-3 rounded-circle p-0 m-0 bg-light m-auto iam">
+                                        <i class="bi bi-inboxes-fill  text-success p-0 m-0  fs-1 "></i>
+                                    </div>
+
+                                    <p class="card-text mt-4  h5 mt-5 ms-3">Labore consequatur incidid dolore</p>
+                                    <p class="mt-4 text-muted">Aut suscipit aut cum nemo deleniti aut omnis. Doloribus
+                                        ut maiores
+                                        omnis
+                                        facere
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features" class="features section mt-5">
+        <div class="container">
+            <div class="row w-100">
+                <div class="col-lg-3 col-md-4 mt-2 " data-aos="fade-up" data-aos-delay="100">
+                    <div class="features-item d-flex  border box1   p-2">
+                        <i class="bi bi-eye h1 m-0 " style="color: #ffbb2c;"></i>
+                        <h3 class="m-0 ms-2 "><a href="" class=" h6 box2 text-dark">Lorem Ipsum</a></h2>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-2 " data-aos="fade-up" data-aos-delay="200">
+                    <div class="features-item d-flex border box1 p-2">
+                        <i class="bi bi-infinity h1 m-0" style="color: #5578ff;"></i>
+                        <h3 class="m-0 ms-2 "><a href="" class=" h6 box2  text-dark">Dolor Sitema</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-2 " data-aos="fade-up" data-aos-delay="300">
+                    <div class="features-item d-flex border box1 p-2">
+                        <i class="bi bi-mortarboard h1 m-0" style="color: #e80368;"></i>
+                        <h3 class="m-0 ms-2 "><a href="" class=" h6 box2  text-dark">Sed perspiciatis</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-2 " data-aos="fade-up" data-aos-delay="400">
+                    <div class="features-item d-flex border box1 p-2">
+                        <i class="bi bi-nut h1 m-0" style="color: #e361ff;"></i>
+                        <h3 class="m-0 ms-2 "><a href="" class=" h6 box2  text-dark">Magni Dolores</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-2" data-aos="fade-up" data-aos-delay="500">
+                    <div class="features-item d-flex border box1 p-2">
+                        <i class="bi bi-shuffle h1 m-0" style="color: #47aeff;"></i>
+                        <h3 class="m-0 ms-2 "><a href="" class=" h6 box2  text-dark">Nemo Enim</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-2 " data-aos="fade-up" data-aos-delay="600">
+                    <div class="features-item d-flex border box1 p-2">
+                        <i class="bi bi-star h1 m-0" style="color: #ffa76e;"></i>
+                        <h3 class="m-0 ms-2 "><a href="" class=" h6 box2  text-dark">Eiusmod Tempor</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-2 " data-aos="fade-up" data-aos-delay="700">
+                    <div class="features-item d-flex border box1 p-2">
+                        <i class="bi bi-x-diamond h1 m-0" style="color: #11dbcf;"></i>
+                        <h3 class="m-0 ms-2 "><a href="" class=" h6 box2  text-dark">Midela Teren</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-2 " data-aos="fade-up" data-aos-delay="800">
+                    <div class="features-item d-flex border box1  p-2">
+                        <i class="bi bi-camera-video h1 m-0" style="color: #4233ff;"></i>
+                        <h3 class="m-0 ms-2 "><a href="" class=" h6 box2  text-dark">Pira Neve</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-2 " data-aos="fade-up" data-aos-delay="900">
+                    <div class="features-item d-flex border box1 p-2">
+                        <i class="bi bi-command h1 m-0" style="color: #b2904f;"></i>
+                        <h3 class="m-0 ms-2 "><a href="" class=" h6 box2  text-dark">Dirada Pack</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-2 " data-aos="fade-up" data-aos-delay="1000">
+                    <div class="features-item d-flex border box1 p-2">
+                        <i class="bi bi-dribbble h1 m-0" style="color: #b20969;"></i>
+                        <h3 class="m-0 ms-2 "><a href="" class=" h6 box2  text-dark">Moton Ideal</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-2 " data-aos="fade-up" data-aos-delay="1100">
+                    <div class="features-item d-flex border box1 p-2">
+                        <i class="bi bi-activity h1 m-0" style="color: #ff5828;"></i>
+                        <h3 class="m-0 ms-2 "><a href="" class="h6 box2  text-dark">Verdo Park</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 mt-2 " data-aos="fade-up" data-aos-delay="1200">
+                    <div class="features-item d-flex border box1 p-2">
+                        <i class="bi bi-brightness-high h1 m-0" style="color: #29cc61;"></i>
+                        <h3 class="m-0 ms-2 "><a href="" class="h6 box2  text-dark">Flavor Nivelanda</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="courses section mt-5">
+        <div class="container section-title" data-aos="fade-up">
+            <div class="d-flex">
+                <h2 class="h5 des text-muted" data-aos="fade-right" data-aos-duration="1000">Courses</h2>
+                <hr class=" ms-3" style="width: 130px; color:green; height: 2px;" data-aos="fade-right"
+                    data-aos-duration="1000">
+            </div>
+            <p class=" h1 fw-bold" data-aos="fade-right" data-aos-duration="2000">Popular Courses</p>
+        </div>
+        <div class="container mt-5">
+            <div class="row row-cols-1 row-cols-lg-3  row-cols-md-2  g-4">
+                <div class="col" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="card h-100">
+                        <img src="course-1.jpg" class="card-img-top" alt="...">
+
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <p class="category ms-2 bg-success p-1 rounded text-light">Web Development</p>
+                            <p class="price me-2 fw-bolder h4 text-muted">$169</p>
+                        </div>
+                        <div class="card-body ">
+                            <h5 class="card-title h4 fw-bold box3">Website Design</h5>
+                            <p class="card-text text-muted">Et architecto provident deleniti facere repellat nobis iste.
+                                Id facere
+                                quia quae dolores dolorem tempore.
+                            </p>
+                        </div>
+                        <hr style="width: 95%; margin: auto;">
+                        <div class="d-flex p-3">
+                            <div class="mt-2 ms-2 d-flex align-items-center">
+                                <img class="rounded-circle" src="trainer-1-2.jpg" alt="" width="20%">
+                                <h4 class="m-1 box3 text-muted">Antonio</h4>
+                            </div>
+                            <div class="d-flex justify-content-around align-items-center">
+                                <i class="bi bi-person user-icon h4 m-2 text-muted"></i>
+                                <h5 class="mt-2 text-muted">50</h5>
+                                <i class="bi bi-heart heart-icon h4 m-2 text-muted"></i>
+                                <h5 class="mt-2 text-muted">65</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="card h-100">
+                        <img src="course-2.jpg" class="card-img-top" alt="...">
+
+                        <div class="d-flex justify-content-between align-items-center  mt-3">
+                            <p class="category ms-2 bg-success p-1 rounded text-light">Marketing</p>
+                            <p class="price me-2 fw-bolder h4 text-muted">$250</p>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title h4 fw-bold box3">Search Engine Optimization</h5>
+                            <p class="card-text text-muted">Et architecto provident deleniti facere repellat nobis iste.
+                                Id facere
+                                quia quae dolores dolorem tempore.</p>
+                        </div>
+                        <hr style="width: 95%; margin: auto;">
+
+                        <div class="d-flex p-3">
+                            <div class="mt-2 ms-2 d-flex align-items-center">
+                                <img class="rounded-circle" src="trainer-2-2.jpg" alt="" width="20%">
+                                <h4 class="m-1 box3 text-muted">LANA</h4>
+                            </div>
+                            <div class="d-flex justify-content-around align-items-center">
+                                <i class="bi bi-person user-icon h4 m-2 text-muted"></i>
+                                <h5 class="mt-2 text-muted">50</h5>
+                                <i class="bi bi-heart heart-icon h4 m-2 text-muted"></i>
+                                <h5 class="mt-2 text-muted">65</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="zoom-in" data-aos-duration="3000">
+                    <div class="card h-100">
+                        <img src="course-3.jpg" class="card-img-top" alt="...">
+                        <div class="d-flex justify-content-between align-items-center  mt-3">
+                            <p class="category ms-2 bg-success p-1 rounded text-light">Content</p>
+                            <p class="price me-2 fw-bolder h4 text-muted">$180</p>
+                        </div>
+                        <div class="card-body ">
+                            <h5 class="card-title h4 fw-bolder box3">Copywriting</h5>
+                            <p class="card-text text-muted">Et architecto provident deleniti facere repellat nobis iste.
+                                Id facere
+                                quia quae dolores dolorem tempore.</p>
+                        </div>
+                        <hr style="width: 95%; margin: auto; ">
+                        <div class="d-flex p-3">
+                            <div class="mt-2 ms-2 d-flex align-items-center">
+                                <img class="rounded-circle" src="trainer-3-2.jpg" alt="" width="20%">
+                                <h4 class="m-1 box3 text-muted">Brandon</h4>
+                            </div>
+                            <div class="d-flex justify-content-around align-items-center">
+                                <i class="bi bi-person user-icon h4 m-2 text-muted"></i>
+                                <h5 class="mt-2 text-muted">50</h5>
+                                <i class="bi bi-heart heart-icon h4 m-2 text-muted"></i>
+                                <h5 class="mt-2 text-muted">65</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="trainers-index" class="section trainers-index mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+                        <div class="member border">
+                            <img src="trainer-1.jpg" class="img-fluid" alt="">
+                            <div class="member-content  text-center">
+                                <h4 class="mt-3">Walter White</h4>
+                                <span class="text-muted">Web Development</span>
+                                <p class="mt-2 text-muted">
+                                    Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis
+                                    quaerat qui aut aut aut
+                                </p>
+                                <div class="social pb-3">
+                                    <a href=""><i class="bi bi-twitter box3 h4 text-dark text-muted"></i></a>
+                                    <a href=""><i class="bi bi-facebook box3 h4 text-dark text-muted"></i></a>
+                                    <a href=""><i class="bi bi-instagram box3 h4 text-dark text-muted"></i></a>
+                                    <a href=""><i class="bi bi-linkedin box3 h4 text-dark text-muted"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="1000">
+                        <div class="member border">
+                            <img src="trainer-2.jpg" class="img-fluid" alt="">
+                            <div class="member-content  text-center">
+                                <h4 class="mt-3">Sarah Jhinson</h4>
+                                <span class="text-muted">Marketing</span>
+                                <p class="mt-2 text-muted">
+                                    Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto
+                                    rerum rerum temporibus
+                                </p>
+                                <div class="social pb-3">
+                                    <a href=""><i class="bi bi-twitter box3  h4 text-dark text-muted"></i></a>
+                                    <a href=""><i class="bi bi-facebook box3  h4 text-dark text-muted"></i></a>
+                                    <a href=""><i class="bi bi-instagram box3  h4 text-dark text-muted"></i></a>
+                                    <a href=""><i class="bi bi-linkedin box3  h4 text-dark text-muted"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="1500">
+                        <div class="member border">
+                            <img src="trainer-3.jpg" class="img-fluid" alt="">
+                            <div class="member-content text-center">
+                                <h4 class="mt-3">William Anderson</h4>
+                                <span class="text-muted">Content</span>
+                                <p class="mt-2 text-muted">
+                                    Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et
+                                    laborum toro des clara
+                                </p>
+                                <div class="social pb-3">
+                                    <a href=""><i class="bi bi-twitter box3  h4 text-dark text-muted"></i></a>
+                                    <a href=""><i class="bi bi-facebook box3  h4 text-dark text-muted"></i></a>
+                                    <a href=""><i class="bi bi-instagram box3  h4 text-dark text-muted"></i></a>
+                                    <a href=""><i class="bi bi-linkedin box3  h4 text-dark text-muted"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer" class="footer position-relative mt-5 bg-light">
+            <div class="container footer-top">
+                <div class="row gy-4">
+                    <div class="col-lg-4 col-md-6 footer-about">
+                        <a href="index.html" class="logo d-flex align-items-center">
+                            <span class="sitename h2 text-dark">Mentor</span>
+                        </a>
+                        <div class="footer-contact pt-3">
+                            <p>A108 Adam Street</p>
+                            <p>New York, NY 535022</p>
+                            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+                            <p><strong>Email:</strong> <span><a href="/cdn-cgi/l/email-protection"
+                                        class="__cf_email__ text-dark"
+                                        data-cfemail="0b62656d644b6e736a667b676e25686466">[email&#160;protected]</a></span>
+                            </p>
+                        </div>
+                        <div class="social-links d-flex mt-4">
+                            <a href=""><i
+                                    class="bi bi-twitter border p-2 rounded-circle text-dark h4 text-muted m-2 box3"></i></a>
+                            <a href=""><i
+                                    class="bi bi-facebook border p-2 rounded-circle text-dark h4 text-muted m-2 box3"></i></a>
+                            <a href=""><i
+                                    class="bi bi-instagram border p-2 rounded-circle text-dark h4 text-muted m-2 box3"></i></a>
+                            <a href=""><i
+                                    class="bi bi-linkedin border p-2 rounded-circle text-dark h4 text-muted m-2 box3"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 footer-links">
+                        <h4 class="h5">Useful Links</h4>
+                        <ul>
+                            <li><a href="#" class="box3 text-muted">Home</a></li>
+                            <li><a href="#" class="box3 text-muted">About us</a></li>
+                            <li><a href="#" class="box3 text-muted">Services</a></li>
+                            <li><a href="#" class="box3 text-muted">Terms of service</a></li>
+                            <li><a href="#" class="box3 text-muted">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-3 footer-links">
+                        <h4 class="h5">Our Services</h4>
+                        <ul>
+                            <li><a href="#" class="box3 text-muted">Web Design</a></li>
+                            <li><a href="#" class="box3 text-muted">Web Development</a></li>
+                            <li><a href="#" class="box3 text-muted">Product</a></li>
+                            <li><a href="#" class="box3 text-muted"> Management</a></li>
+                            <li><a href="#" class="box3 text-muted">Marketing</a></li>
+                            <li><a href="#" class="box3 text-muted">Graphic Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-12 footer-newsletter">
+                        <h4 class="h5">Our Newsletter</h4>
+                        <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+                        <form action="forms/newsletter.php" method="post" class="php-email-form">
+                            <div class="newsletter-form position-relative w-100 mt-5">
+                                <input type="email" name="email"
+                                    class=" w-100 btn border shadow p-2 ps-4 pe-4 rounded-pill">
+                                <input type="submit" value="Subscribe"
+                                    class="position-absolute btn btn-outline-success p-2 end-0 rounded-pill bg-success text-light">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="container copyright text-center mt-4 color p-4">
+                <p>© <span>Copyright</span> <strong class="px-1 sitename">Mentor</strong> <span>All Rights
+                        Reserved</span></p>
+                <div class="credits">
+                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({ once: true, 
+            });
+        </script>
+</body>
+
+</html>
